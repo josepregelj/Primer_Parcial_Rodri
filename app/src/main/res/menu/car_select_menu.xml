@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:orderInCategory="103"
+        android:title="Preferencias"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_stock"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="102"
+        android:title="Agregar"
+        app:showAsAction="always"
+        android:enabled="false"
+        android:visible="false"/>
+    <item
+        android:id="@+id/edit_user"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:orderInCategory="101"
+        android:title="Usuarios"
+        app:showAsAction="always"
+        android:enabled="false"
+        android:visible="false"/>
+
+</menu>

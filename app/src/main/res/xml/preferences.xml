@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="false">
+
+    <PreferenceCategory android:title="Filtros de búsqueda">
+        <MultiSelectListPreference
+            android:key="automaker"
+            android:entries="@array/brand"
+            android:entryValues="@array/brandkey"
+            android:dialogTitle="Seleccinar automotriz"
+            android:title="Automotriz"
+            />
+
+        <MultiSelectListPreference
+            android:key="type"
+            android:entries="@array/cartype"
+            android:entryValues="@array/cartypekey"
+            android:dialogTitle="Seleccinar tipo"
+            android:title="Tipo de vehículo"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

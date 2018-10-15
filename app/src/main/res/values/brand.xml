@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brand">
+        <item>Chevrolet</item>
+        <item>Ford</item>
+        <item>Fiat</item>
+        <item>Peugeot</item>
+        <item>Renaut</item>
+        <item>Toyota</item>
+        <item>Volkwagen</item>
+    </string-array>
+    <string-array name="brandkey">
+        <item>CV</item>
+        <item>FD</item>
+        <item>FT</item>
+        <item>PG</item>
+        <item>RN</item>
+        <item>TY</item>
+        <item>VW</item>
+    </string-array>
+
+    <string-array name="cartype">
+        <item>Auto</item>
+        <item>SUV</item>
+        <item>Pick-Up</item>
+    </string-array>
+    <string-array name="cartypekey">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
